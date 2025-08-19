@@ -10,25 +10,23 @@ body {
   text-align: center;
 }
 
-.conteudo {
+.carregamento {
   max-width: 90%;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
-.subtitulo {
-  font-size: 20px;
-  margin-bottom: 40px;
-  line-height: 1.5;
+.espelho {
+  width: 200px;
+  margin: 20px auto;
 }
 
-.botoes {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .botao {
@@ -39,10 +37,4 @@ h1 {
   color: rgb(97, 55, 47);
   font-weight: bold;
   text-decoration: none;
-  transition: 0.3s;
-}
-
-.botao:hover {
-  background-color: rgb(234, 216, 206);
-  border: 2px solid rgb(222, 200, 188);
 }

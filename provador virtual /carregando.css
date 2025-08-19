@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(234, 216, 206);
+    color: rgb(97, 55, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .loading {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
