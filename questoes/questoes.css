@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+body {
+    background-color: #FAE6DD;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    padding: 5%;
+
+    color: #61372F;
+    font-family: 'Playfair Display SC';
+}
+
+.quiz h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.9rem;
+
+    color: #61372F;
+    font-family: 'Playfair Display';
+}
+
+#answer-buttons{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+button {
+    text-align: center;
+    border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+
+    background-color: #EAD8CE;
+    color: #61372F;
+    border: 1px solid #61372F;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+}
+
+.btn:hover:not([disabled]) {
+    background: #61372F;
+    color: #EAD8CE;
+    border: 1px solid #EAD8CE;
+
+}
+
+;btn:disabled {
+   cursor: no-drop; 
+}
+
+.correct {
+    background: #61372F;
+    color: #EAD8CE;
+    border: 1px solid #EAD8CE;
+}
+
+#resposta2 {
+    background: #61372F;
+    color: #EAD8CE;
+    border: 1px solid #EAD8CE;
+}
+
+#resposta3 {
+    background: #61372F;
+    color: #EAD8CE;
+    border: 1px solid #EAD8CE;
+}
+
+#resposta4 {
+    background: #61372F;
+    color: #EAD8CE;
+    border: 1px solid #EAD8CE;
+}

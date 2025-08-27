@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+body {
+    background-color: #FAE6DD;
+    align-items: center;
+
+    font-family: 'PlayFair Display';
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    padding: 5%;
+
+    color: #61372F;
+    font-family: 'Playfair Display SC';
+}
+
+section {
+    font-size: 20px;
+    padding: 5%;
+}
+
+.estrutura h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 23px;
+    color: #61372F;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    font-family: 'Playfair Display';
+    font-weight: 600;
+}
+
+button {
+    align-items: center;
+    border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+
+    background-color: #EAD8CE;
+    color: #61372F;
+    font-family: 'PlayFair Display';
+    font-weight: 600;
+}
+
+.paragr {
+    text-align: center;
+    padding: 5%;
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.7;
+    margin-top: 6rem;
+
+    color: #61372F;
+    font-family: 'Poppins';
+}
+

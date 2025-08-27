@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(234, 216, 206);
-    color: rgb(97, 55, 47);
+    background-color: #FAE6DD;
+    color: #61372F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,12 +14,20 @@ body {
   }
   
   h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 70px;
+    margin-bottom: 75px;
+
+    font-family: 'Playfair Display SC';
   }
   
   .loading {
     width: 150px;
     margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: 'Poppins';
+    opacity: 0.7;
   }
   
