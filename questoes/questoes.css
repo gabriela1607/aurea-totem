@@ -78,6 +78,9 @@ button {
 
 ;btn:disabled {
    cursor: no-drop; 
+   background: #61372F;
+   color: #EAD8CE;
+   border: 1px solid #EAD8CE;
 }
 
 .correct {

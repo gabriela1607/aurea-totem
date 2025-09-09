@@ -31,6 +31,7 @@ const perguntas = [
 const answerButtons = document.getElementById("answer-buttons");
 const questionElement = document.getElementById("question");
 const nextButton = document.getElementById("next-btn");
+const backButton = document.getElementById("back-btn");
 
 let currentQuestionIndex = 0;
 let respostasSelecionadas = []; // Aqui vamos armazenar as respostas do usuário
@@ -39,6 +40,7 @@ function startQuiz() {
     currentQuestionIndex = 0;
     respostasSelecionadas = [];
     nextButton.innerHTML = "PRÓXIMO";
+    backButton.innerHTML = "VOLTAR";
     showQuestion();
 }
 
@@ -59,6 +61,7 @@ function showQuestion() {
 
 function resetState() {
     nextButton.style.display = "none";
+    backButton.style.display = "none";
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
@@ -67,6 +70,7 @@ function resetState() {
 function selectAnswer(resposta) {
     respostasSelecionadas[currentQuestionIndex] = resposta; // Salva a resposta da pergunta atual
     nextButton.style.display = "block";
+    backButton.style.display = "block";
 }
 
 function showResult() {
@@ -88,6 +92,13 @@ function handleNextButton() {
         showResult();
     }
 }
+
+backButton.addEventListener("click", () => {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        showQuestion();
+    }
+});
 
 nextButton.addEventListener("click", () => {
     if (nextButton.style.display === "block") {
